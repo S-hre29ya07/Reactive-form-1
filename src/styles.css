@@ -1,1 +1,17 @@
 /* You can add global styles to this file, and also import other style files */
+@import '~@angular/material/prebuilt-themes/indigo-pink.css';
+.container {
+  display: block;
+  border: 2px black;
+  border-radius: 4px;
+  box-sizing: border-box 1px black;
+}
+.btn{
+  border-radius: 6px;
+font-size: 20px;
+font-weight: lighter;
+width: 100%;
+}
+#forgot{
+text-decoration: none;
+}
